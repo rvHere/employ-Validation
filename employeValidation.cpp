@@ -3,7 +3,7 @@
 #include <vector>
 #include <cctype>
 
-// Helper: digits only
+// Helper: digits only - it will check to see if user enters only numbers as id not words
 bool isAllDigits(const std::string& s) {
     if (s.empty()) return false;
     for (char c : s) {
@@ -14,7 +14,7 @@ bool isAllDigits(const std::string& s) {
     return true;
 }
 
-// Helper: letters and spaces only
+// Helper: letters and spaces only -  it will check to see if user does not enter numbers
 bool isAllLetters(const std::string& s) {
     if (s.empty()) return false;
     for (char c : s) {
@@ -25,10 +25,10 @@ bool isAllLetters(const std::string& s) {
     return true;
 }
 
-// Helper: convert to lowercase
+// Helper: convert to lowercase - we will convert data entered by user to upper case to remove mismatch confusion
 std::string toLower(std::string s) {
     for (char& c : s) {
-        c = std::tolower(c);
+        c = std::toupper(c);
     }
     return s;
 }
@@ -36,12 +36,16 @@ std::string toLower(std::string s) {
 //  Employee ID validation
 int getValidEmployeeId() {
     std::string input;
+    /*entered string cause it will check if any un-necessary words entered by user if not
+     *our code will break if user enters "28jgh" instead of 28 it will be read here*/
 
     while (true) {
         std::cout << "Enter Employee ID: ";
         std::cin >> input;
 
         if (!isAllDigits(input)) {
+            /* we validated the string we have given above if user enters "28hgyd" it will be verified here and we call upon the
+             * function isAllDigits and prove it with ! not operator - we are passing the input data entyered by user to above function and validating*/
             std::cout << "Invalid ID. Numbers only.\n";
             continue;
         }
