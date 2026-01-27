@@ -25,13 +25,13 @@ bool isAllLetters(const std::string& s) {
     return true;
 }
 
-// Helper: convert to lowercase - we will convert data entered by user to upper case to remove mismatch confusion
-std::string toLower(std::string s) {
-    for (char& c : s) {
-        c = std::toupper(c);
-    }
-    return s;
-}
+// Helper: convert to uppercase will convert data entered by user to upper case to remove mismatch confusion
+// std::string toUpper(std::string s) {
+//     for (char& c : s) {
+//         c = std::toupper(c);
+//     }
+//     return s;
+// }
 
 //  Employee ID validation
 int getValidEmployeeId() {
@@ -50,13 +50,12 @@ int getValidEmployeeId() {
             continue;
         }
 
-        int id = std::stoi(input);
+        int id = std::stoi(input); // since we stared with string to verify user input we need a conversion of string to int when user enters correct integer value
 
-        if (id <= 0) {
+        if (id <= 0) {              // making sure user enters positive integer
             std::cout << "Employee ID must be positive.\n";
             continue;
         }
-
         return id;
     }
 }
@@ -65,10 +64,12 @@ int getValidEmployeeId() {
 std::string getValidName() {
     std::string name;
 
-    std::cin.ignore();
+    std::cin.ignore(); //its is to support the getline code to remove the enter option after user enters the input
     while (true) {
         std::cout << "Enter Employee Name: ";
         std::getline(std::cin, name);
+        /*we are using getline([&]std --> instead of cin>>name bacause th euser input can be more the multiple charaters
+        like std::cin >> name reads only "John" "Doe" stays in the buffer.*/
 
         if (!isAllLetters(name)) {
             std::cout << "Name must contain letters only.\n";
