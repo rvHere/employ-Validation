@@ -99,16 +99,16 @@ std::string getValidDepartment() {
 
 //Salary validation
 double getValidSalary() {
-    std::string input;
+    std::string inputSalary;
 
     while (true) {
         std::cout << "Enter Salary: ";
-        std::cin >> input;
+        std::cin >> inputSalary;
 
         bool valid = true;
         int dotCount = 0;
 
-        for (char c : input) {
+        for (char c : inputSalary) {
             if (c == '.') {
                 dotCount++;
             }
@@ -122,7 +122,7 @@ double getValidSalary() {
             continue;
         }
 
-        double salary = std::stod(input);
+        double salary = std::stod(inputSalary);
 
         if (salary <= 0) {
             std::cout << "Salary must be greater than zero.\n";
@@ -170,11 +170,11 @@ int main() {
             emp.salary = getValidSalary();
 
             employees.push_back(emp);
-            std::cout << "✅ Employee registered successfully.\n";
+            std::cout << " Employee registered successfully.\n";
         }
         else if (choice == 2) {
             if (employees.empty()) {
-                std::cout << "⚠️ No employees found.\n";
+                std::cout << " No employees found.\n";
             }
             else {
                 std::cout << "\n--- Employee List ---\n";
@@ -184,7 +184,7 @@ int main() {
             }
         }
         else if (choice == 3) {
-            std::cout << "👋 Exiting application.\n";
+            std::cout << " Exiting application.\n";
             break;
         }
         else {
