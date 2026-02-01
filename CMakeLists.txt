@@ -4,14 +4,14 @@ project(EmployeeValidation)
 set(CMAKE_CXX_STANDARD 17)
 
 # third party library
-add_subdirectory(../third_party/fmt)
+add_subdirectory(third_party/fmt)
 
 add_executable(EmployeeValidation
-        ../employeValidation.cpp
-        ../isCitizen.cpp
-        ../learning.cpp
-        ../learning_2.cpp
-        ../multiThreading.cpp
+        employeValidation.cpp
+        isCitizen.cpp
+        learning.cpp
+        learning_2.cpp
+        multiThreading.cpp
 )
 
 # Linking  third-party library to our program

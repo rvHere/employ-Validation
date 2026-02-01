@@ -6,11 +6,8 @@
 #define EMPLOYEE_VALIDATION_C_PRINT_PID_H
 
 
-
 class print_pid {
-
 };
-
 
 
 #endif //EMPLOYEE_VALIDATION_C_PRINT_PID_H

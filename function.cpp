@@ -1,5 +1,15 @@
-//
-// Created by chand on 1/30/2026.
-//
+#include <iostream>
+#include <string>
 
-#include "third_party/function.h"
+void myFunction(std::string country , int age, std::string timeZone = "CST") {
+    std::cout << country << age << timeZone<< "\n";
+}
+
+int main() {
+    myFunction("USA", 100, "EST");
+    return 0;
+}
+
+//Output
+// India
+// USA

@@ -6,11 +6,8 @@
 #define EMPLOYEE_VALIDATION_C_LEARNING_H
 
 
-
 class learning {
-
 };
-
 
 
 #endif //EMPLOYEE_VALIDATION_C_LEARNING_H

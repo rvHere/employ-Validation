@@ -6,11 +6,8 @@
 #define EMPLOYEE_VALIDATION_C_MULTITHREADING_H
 
 
-
 class multiThreading {
-
 };
-
 
 
 #endif //EMPLOYEE_VALIDATION_C_MULTITHREADING_H
