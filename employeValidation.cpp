@@ -133,7 +133,7 @@ double getValidSalary() {
     }
 }
 
-//  Employee structure
+//  Employee structure - created a structure data type to combine all 4 elements in one place
 struct Employee {
     int id;
     std::string name;

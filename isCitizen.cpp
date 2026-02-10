@@ -29,12 +29,12 @@ bool isAllLetters(const std::string& s) {
 }
 
 // Helper: convert to lowercase
-// std::string toLower(std::string s) {
-//     for (char& c : s) {
-//         c = std::tolower(c);
-//     }
-//     return s;
-// }
+std::string toLower(std::string s) {
+    for (char& c : s) {
+        c = std::tolower(c);
+    }
+    return s;
+}
 
 //getting age from user with validation
 int getValidAge() {
@@ -67,8 +67,6 @@ int getValidAge() {
     }
 }
 
-std::initializer_list<char> toLower(const std::string & string);
-
 std::string isCitizenValidation() {
     std::string inputCitizen;
 
@@ -81,10 +79,8 @@ std::string isCitizenValidation() {
             continue;
         }
         inputCitizen = toLower(inputCitizen);
-
-
+        return inputCitizen;
     }
-
 }
 
 int main() {
