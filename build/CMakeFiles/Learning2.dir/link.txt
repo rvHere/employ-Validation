@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Learning2.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\Learning2.dir/objects.a @CMakeFiles\Learning2.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Learning2.dir/objects.a -Wl,--no-whole-archive -o Learning2.exe -Wl,--out-implib,libLearning2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Learning2.dir\linkLibs.rsp

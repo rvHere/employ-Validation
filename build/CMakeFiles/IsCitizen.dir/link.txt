@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\IsCitizen.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\IsCitizen.dir/objects.a @CMakeFiles\IsCitizen.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\IsCitizen.dir/objects.a -Wl,--no-whole-archive -o IsCitizen.exe -Wl,--out-implib,libIsCitizen.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\IsCitizen.dir\linkLibs.rsp

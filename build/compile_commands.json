@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\EmployeeValidation.dir\\employeValidation.cpp.obj -c \"C:\\Users\\chand\\OneDrive\\Desktop\\Employee Validation C++\\employeValidation.cpp\"",
+  "file": "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/employeValidation.cpp",
+  "output": "CMakeFiles/EmployeeValidation.dir/employeValidation.cpp.obj"
+},
+{
+  "directory": "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\IsCitizen.dir\\isCitizen.cpp.obj -c \"C:\\Users\\chand\\OneDrive\\Desktop\\Employee Validation C++\\isCitizen.cpp\"",
+  "file": "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/isCitizen.cpp",
+  "output": "CMakeFiles/IsCitizen.dir/isCitizen.cpp.obj"
+},
+{
+  "directory": "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Learning.dir\\learning.cpp.obj -c \"C:\\Users\\chand\\OneDrive\\Desktop\\Employee Validation C++\\learning.cpp\"",
+  "file": "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/learning.cpp",
+  "output": "CMakeFiles/Learning.dir/learning.cpp.obj"
+},
+{
+  "directory": "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Learning2.dir\\learning_2.cpp.obj -c \"C:\\Users\\chand\\OneDrive\\Desktop\\Employee Validation C++\\learning_2.cpp\"",
+  "file": "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/learning_2.cpp",
+  "output": "CMakeFiles/Learning2.dir/learning_2.cpp.obj"
+},
+{
+  "directory": "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\MultiThreading.dir\\multiThreading.cpp.obj -c \"C:\\Users\\chand\\OneDrive\\Desktop\\Employee Validation C++\\multiThreading.cpp\"",
+  "file": "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/multiThreading.cpp",
+  "output": "CMakeFiles/MultiThreading.dir/multiThreading.cpp.obj"
+}
+]

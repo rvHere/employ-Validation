@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EmployeeValidation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EmployeeValidation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EmployeeValidation-Debug-5ec3895e25dfc3b6c230.json",
+					"name" : "EmployeeValidation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IsCitizen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IsCitizen-Debug-14276ca0f4c44bf5b9ff.json",
+					"name" : "IsCitizen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Learning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Learning-Debug-8440d55423fe7607da3b.json",
+					"name" : "Learning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Learning2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Learning2-Debug-b71ef33c3e51f527f697.json",
+					"name" : "Learning2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MultiThreading::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MultiThreading-Debug-f1d1159e5c047e9af430.json",
+					"name" : "MultiThreading",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build",
+		"source" : "C:/Users/chand/OneDrive/Desktop/Employee Validation C++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

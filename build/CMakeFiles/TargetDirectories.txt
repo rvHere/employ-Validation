@@ -1,0 +1,7 @@
+C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build/CMakeFiles/EmployeeValidation.dir
+C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build/CMakeFiles/IsCitizen.dir
+C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build/CMakeFiles/Learning.dir
+C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build/CMakeFiles/Learning2.dir
+C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build/CMakeFiles/MultiThreading.dir
+C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build/CMakeFiles/edit_cache.dir
+C:/Users/chand/OneDrive/Desktop/Employee Validation C++/build/CMakeFiles/rebuild_cache.dir
