@@ -9,6 +9,10 @@ void addFunction(int a, int b){
         std::cout << "Time now is: " << std::ctime(&now);
 }
 
+void testFunction(int a, int b) {
+        std::cout << "the output is: " << a+b << "\n";
+}
+
 void subtractFunction(int a, int b){
         std::cout << "the subtraction is: " << a-b << "\n";
         std::time_t now = std::time(nullptr);
