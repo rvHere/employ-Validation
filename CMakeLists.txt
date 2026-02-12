@@ -10,5 +10,4 @@ add_executable(IsCitizen isCitizen.cpp)
 add_executable(Learning learning.cpp)
 add_executable(Learning2 learning_2.cpp)
 add_executable(MultiThreading multiThreading.cpp)
-
-
+add_executable(TrainWindRestriction trainWindRestriction.cpp)
